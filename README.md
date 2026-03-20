@@ -109,18 +109,6 @@ bids_pdf/
 
 ---
 
-### Step 3 (optional) — Fix an existing JSON file
-
-If you have a `bids.json` produced by an older version of the scraper where fields appear as lists (e.g. `"bid_number": ["GEM/2026/B/7319567"]`) or URLs are broken (e.g. `.../showbidDocument/[9078233]`), run:
-
-```bash
-python fix_bids_json.py --input bids.json
-```
-
-This overwrites the file in-place with cleaned, normalised data. Pass `--output fixed.json` to write to a new file instead.
-
----
-
 ## Typical workflow
 
 ```bash
