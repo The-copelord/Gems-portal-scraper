@@ -1,0 +1,8 @@
+bids_pdf/
+bids.json
+output bids.json
+output_bids.json
+aide.txt
+fix_bids_json.py
+KAVACH_bids.json
+output_bids.csv
