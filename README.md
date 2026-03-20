@@ -10,10 +10,8 @@ A toolkit to search, scrape, and download bid documents from the [Government e-M
 |---|---|
 | `gem_bid_scraper.py` | Search by keyword and scrape all matching bid metadata to CSV or JSON |
 | `download_bids.py` | Read the JSON output and download each bid's PDF document |
-| `fix_bids_json.py` | One-time utility to clean up JSON produced by older versions of the scraper |
 
 ---
-
 ## Requirements
 
 ### Python packages
